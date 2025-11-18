@@ -50,6 +50,9 @@ form {
 }
 
 @layer components {
+    .glass{
+        @apply bg-blue-100 rounded-2xl focus:outline-none bg-white;
+    }
     .text-gradient {
         @apply bg-clip-text text-transparent bg-gradient-to-r from-[#AB8C95] via-[#000000] to-[#8E97C5];
     }

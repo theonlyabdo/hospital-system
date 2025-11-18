@@ -38,6 +38,9 @@ export function Layout({ children }: { children: React.ReactNode }) {
         {children}
         <ScrollRestoration />
         <Scripts />
+        <div className="fixed bottom-4 right-4 text-gradient glass text-xs font-bold px-3 py-1 rounded  pointer-events-none">
+            Powered by aveo
+        </div>
       </body>
     </html>
   );
