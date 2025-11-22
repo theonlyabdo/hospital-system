@@ -1,0 +1,12 @@
+cool so now i want this button
+                    <Button
+                        className="flex cursor-pointer items-center gap-2 bg-rose-700 text-white hover:bg-rose-600"
+                    >
+                        <UserPlus size={18} />
+                        Register New Patient
+                    </Button>
+
+
+to open a modal prompt to search for the patient using MRN, UID, First and last names,
+
+then it should display the patient data:
